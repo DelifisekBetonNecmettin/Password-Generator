@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+
+<header>
+
+
+</header>
+
+<body>
+    
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    
+
+    <div class="card">
+        <div class="content-wrapper">
+            <h2 class="heading" id>Please Select features of your Password </h2>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="demo">
+
+
+            <div class="input-group" id="input-group">
+               
+                <div>
+                    <select name="list" id="list" style=" font-size: 0.8em;
+                    font-weight: 550;">
+                        <option value="" selected >[ Select one ]</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+
+
+
+
+                    </select>
+               
+                    <label for="length" >length</label>
+                    
+                </div>
+               
+               
+            </div> 
+            <br>
+
+
+
+
+
+
+
+
+
+            <!-- begin toggle markup	 -->
+
+            <label class="toggle" for="uniqueID">
+                <input type="checkbox" class="toggle__input" id="uniqueID" />
+                <span class="toggle-track">
+                    <span class="toggle-indicator">
+                        <!-- 	This check mark is optional	 -->
+                        <span class="checkMark">
+                            <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                <path
+                                    d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z">
+                                </path>
+                            </svg>
+                        </span>
+                    </span>
+                </span>
+                Include capital letters (A,B,C)
+            </label>
+
+            <!-- end toggle markup	 -->
+
+            <!-- begin toggle markup	 -->
+
+            <label class="toggle" for="uniqueID1">
+                <input type="checkbox" class="toggle__input" id="uniqueID1" />
+                <span class="toggle-track">
+                    <span class="toggle-indicator">
+                        <!-- 	This check mark is optional	 -->
+                        <span class="checkMark">
+                            <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                <path
+                                    d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z">
+                                </path>
+                            </svg>
+                        </span>
+                    </span>
+                </span>
+                Include special characters (@,!,$)
+            </label>
+
+            <!-- end toggle markup	 -->
+
+            <!-- begin toggle markup	 -->
+
+            <label class="toggle" for="uniqueID2">
+                <input type="checkbox" class="toggle__input" id="uniqueID2" />
+                <span class="toggle-track">
+                    <span class="toggle-indicator">
+                        <!-- 	This check mark is optional	 -->
+                        <span class="checkMark">
+                            <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                <path
+                                    d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z">
+                                </path>
+                            </svg>
+                        </span>
+                    </span>
+                </span>
+                Include numbers (1,2,3)
+            </label>
+
+            <!-- end toggle markup	 -->
+          
+           <br>
+<div class="button1">
+
+    <button type="button" id="saveButton" style="align-items: center;
+    background: #e5efe9;
+    border: 1px solid #5a72b5;
+    border-radius: 4px;
+    color: #121943;
+    cursor: pointer;
+    display: flex;
+    font-size: 1em;
+    font-weight: 700;
+    height: 30px;
+    justify-content: center;
+    width: 100px;">Create</button>
+
+</div>
+           
+
+<div class="textbox">
+<p style=" font-size: 1em;
+font-weight: 700;">Your Password </p>
+<textarea name="password" id="print" cols="30" rows="1" readonly></textarea>
+
+
+</div>
+
+<script src="./util.js"></script>
+<script src="./main.js"></script>
+</body>
+<script>utils.js</script>
+<script>home.js</script>
+</html>
